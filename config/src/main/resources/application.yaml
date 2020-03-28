@@ -1,0 +1,15 @@
+
+server:
+  port: 8889
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/fabriciojacob211/springconfig.git
+          clone-on-start: true
+  security:
+    user:
+      name: root
+      password: s3cr3t
